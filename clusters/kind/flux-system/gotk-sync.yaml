@@ -114,7 +114,7 @@ spec:
   path: ./apps/base/apps
   force: true
   prune: true
-  validation: "test"
+  validation: "none"
   dependsOn:
     - name: traefik-hub
   sourceRef:
