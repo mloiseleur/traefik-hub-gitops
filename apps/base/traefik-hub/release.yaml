@@ -20,7 +20,6 @@ spec:
   upgrade:
     crds: CreateReplace
   values:
-    image: europe-west9-docker.pkg.dev/traefiklabs/traefik-hub/traefik-hub:main-6ade0b2-1703177438
     additionalArguments:
       - --hub.metrics.opentelemetry.insecure
       - --hub.metrics.opentelemetry.address=prometheus.monitoring:9090
